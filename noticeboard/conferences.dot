@@ -1,0 +1,131 @@
+digraph g{
+	rankdir=TD;
+	
+	subgraph cluster_jan {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			ijcaiA[label="IJCAI \n abstract"];
+			label = "January";
+	}
+	
+	subgraph cluster_feb {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			ijcaiS[label="IJCAI \n submission"];
+			label = "February";
+	}
+	
+	subgraph cluster_mar {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			irosS[label="IROS \n Submission"];
+			label = "March";
+	}
+	
+	subgraph cluster_apr {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			ijcaiN[label="IJCAI \n Notification"];
+			ecaiS[label="ECAI \n Submission"];
+			label = "April";
+	}
+	
+	subgraph cluster_may {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			label = "May";
+	}
+	
+	subgraph cluster_jun {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			irosN[label="IROS \n Notification"];
+			ecaiN[label="ECAI \n Notification"];
+			label = "June";
+	}
+	
+	subgraph cluster_jul {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			sbgamesS[label="SBGames \n Abstracts \n Submission"];
+			label = "July";
+	}
+	
+	subgraph cluster_aug {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			sbgamesN[label="SBGames \n Notification"];
+			label = "August";
+	}
+	
+	subgraph cluster_sep {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			icraS[label="ICRA \n Submission"];
+			aaaiS[label="AAAI \n Abstracts \n Submission"];
+			label = "September";
+	}
+	
+	subgraph cluster_oct {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			label = "October";
+	}
+	
+	subgraph cluster_nov {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			aaaiN[label="AAAI \n Notification"];
+			krS[label="KR \n Abstracts \n Submission"];
+			icapsS[label="ICAPS \n Abstracts \n Submission"];
+			aamasS[label="AAMAS \n Abstracts \n Submission"];
+			label = "November";
+	}
+
+	subgraph cluster_dec {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			label = "December";
+	}
+	
+	subgraph cluster_jan2 {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			icapsN[label="ICAPS \n Notification"];
+			icraN[label="ICRA \n Notification"];
+			aamasN[label="AAMAS \n Notification"];
+			label = "January";
+	}
+	
+	subgraph cluster_feb2 {
+/*			style=filled;*/
+/*			color=lightgrey;*/
+/*			node [style=filled,color=white];*/
+			krN[label="KR \n Notification"]
+	
+			label = "February";
+	}
+	
+	ijcaiA -> ijcaiS -> ijcaiN;
+	krS -> krN;
+	icapsS -> icapsN;
+	icraS -> icraN;
+	aaaiS -> aaaiN;
+	sbgamesS -> sbgamesN;
+	irosS -> irosN;
+	aamasS -> aamasN;
+	ecaiS -> ecaiN;
+}
