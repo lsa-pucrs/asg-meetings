@@ -31,6 +31,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			ijcaiN[label="IJCAI \n Notification"];
 			ecaiS[label="ECAI \n Submission"];
+			iatS[label="IAT \n Submission"];
 			label = "April";
 	}
 	
@@ -47,6 +48,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			irosN[label="IROS \n Notification"];
 			ecaiN[label="ECAI \n Notification"];
+			iatN[label="IAT \n Notification"];
 			label = "June";
 	}
 	
@@ -128,4 +130,5 @@ digraph g{
 	irosS -> irosN;
 	aamasS -> aamasN;
 	ecaiS -> ecaiN;
+	iatS -> iatN;
 }
