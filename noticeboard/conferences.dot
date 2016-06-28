@@ -7,6 +7,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			ijcaiA[label="IJCAI \n abstract"];
 			label = "January";
+			node_jan [style=invis];
 	}
 	
 	subgraph cluster_feb {
@@ -15,6 +16,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			ijcaiS[label="IJCAI \n submission"];
 			label = "February";
+			node_feb [style=invis];
 	}
 	
 	subgraph cluster_mar {
@@ -23,6 +25,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			irosS[label="IROS \n Submission"];
 			label = "March";
+			node_mar [style=invis];
 	}
 	
 	subgraph cluster_apr {
@@ -33,6 +36,7 @@ digraph g{
 			ecaiS[label="ECAI \n Submission"];
 			iatS[label="IAT \n Submission"];
 			label = "April";
+			node_apr [style=invis];
 	}
 	
 	subgraph cluster_may {
@@ -40,6 +44,7 @@ digraph g{
 /*			color=lightgrey;*/
 /*			node [style=filled,color=white];*/
 			label = "May";
+			node_may [style=invis];
 	}
 	
 	subgraph cluster_jun {
@@ -50,6 +55,7 @@ digraph g{
 			ecaiN[label="ECAI \n Notification"];
 			iatN[label="IAT \n Notification"];
 			label = "June";
+			node_jun [style=invis];
 	}
 	
 	subgraph cluster_jul {
@@ -58,6 +64,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			sbgamesS[label="SBGames \n Abstracts \n Submission"];
 			label = "July";
+			node_jul [style=invis];
 	}
 	
 	subgraph cluster_aug {
@@ -66,6 +73,7 @@ digraph g{
 /*			node [style=filled,color=white];*/
 			sbgamesN[label="SBGames \n Notification"];
 			label = "August";
+			node_aug [style=invis];
 	}
 	
 	subgraph cluster_sep {
@@ -76,6 +84,7 @@ digraph g{
 			aaaiS[label="AAAI \n Abstracts \n Submission"];
 			sacS[label="SAC \n Abstracts \n Submission"];
 			label = "September";
+			node_sep [style=invis];
 	}
 	
 	subgraph cluster_oct {
@@ -83,6 +92,7 @@ digraph g{
 /*			color=lightgrey;*/
 /*			node [style=filled,color=white];*/
 			label = "October";
+			node_oct [style=invis];
 	}
 	
 	subgraph cluster_nov {
@@ -94,6 +104,7 @@ digraph g{
 			icapsS[label="ICAPS \n Abstracts \n Submission"];
 			aamasS[label="AAMAS \n Abstracts \n Submission"];
 			label = "November";
+			node_nov [style=invis];
 	}
 
 	subgraph cluster_dec {
@@ -101,6 +112,7 @@ digraph g{
 /*			color=lightgrey;*/
 /*			node [style=filled,color=white];*/
 			label = "December";
+			node_dec [style=invis];
 	}
 	
 	subgraph cluster_jan2 {
@@ -111,6 +123,7 @@ digraph g{
 			icraN[label="ICRA \n Notification"];
 			aamasN[label="AAMAS \n Notification"];
 			label = "January";
+			node_jan2 [style=invis];
 	}
 	
 	subgraph cluster_feb2 {
@@ -120,6 +133,7 @@ digraph g{
 			krN[label="KR \n Notification"]
 	
 			label = "February";
+			node_feb2 [style=invis];
 	}
 	
 	ijcaiA -> ijcaiS -> ijcaiN;
@@ -132,5 +146,19 @@ digraph g{
 	aamasS -> aamasN;
 	ecaiS -> ecaiN;
 	iatS -> iatN;
+
+	node_jan -> node_feb [style=invis];
+	node_feb -> node_mar [style=invis];
+	node_mar -> node_apr [style=invis];
+	node_apr -> node_may [style=invis];
+	node_may -> node_jun [style=invis];
+	node_jun -> node_jul [style=invis];
+	node_jul -> node_aug [style=invis];
+	node_aug -> node_sep [style=invis];
+	node_sep -> node_oct [style=invis];
+	node_oct -> node_nov [style=invis];
+	node_nov -> node_dec [style=invis];
+	node_dec -> node_jan2 [style=invis];
+	node_jan2 -> node_feb2 [style=invis];
 
 }

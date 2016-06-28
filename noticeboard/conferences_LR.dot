@@ -82,6 +82,7 @@ digraph g{
 /*          node [style=filled,color=white];*/
             icraS[label="ICRA \n Submission"];
             aaaiS[label="AAAI \n Abstracts \n Submission"];
+            sacS[label="SAC \n Abstracts \n Submission"];
             label = "September";
             node_sep [style=invis];
     }
