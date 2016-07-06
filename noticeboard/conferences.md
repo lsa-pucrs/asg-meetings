@@ -31,11 +31,14 @@
 - ICRA Submission
 - SAC Abstracts Submission
 - AAAI Abstracts Submission
+- EUMAS Submission
 
 ## October
+- EUMAS Notification
 
 ## November
 - AAAI Notification
+- SAC Notification
 - ICAPS Abstracts Submission
 - AAMAS Abstracts Submission
 - KR Abstracts Submission
