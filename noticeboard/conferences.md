@@ -39,6 +39,7 @@
 - ICAPS Abstracts Submission
 - AAMAS Abstracts Submission
 - KR Abstracts Submission
+- FLAIRS Submission
 
 ## December
 
@@ -46,6 +47,7 @@
 - ICRA Notification
 - ICAPS Notification
 - AAMAS Notification
+- FLAIRS Notification
 
 ## February
 - KR Notification

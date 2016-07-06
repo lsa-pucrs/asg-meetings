@@ -1,5 +1,5 @@
 if ARGV.first == '-h'
-  puts "ruby conferences.rb [filename=conferences.md] [dir=TD]"
+  puts 'ruby conferences.rb [filename=conferences.md] [dir=TD]'
 else
   # Arguments
   filename = ARGV.first || 'conferences.md'
@@ -15,7 +15,7 @@ else
     if line.start_with?('##')
       # Close and save previous cluster
       output << cluster << "  }\n\n" if cluster
-      cluster = "  subgraph cluster_#{month_counter} {\n    label=\"#{line.split[1]}\";\n    order_node_#{month_counter} [style=invis];\n"
+      cluster = "  subgraph cluster_#{month_counter} {\n    label=\"#{line.split[1]}\";\n    order_node_#{month_counter} [label=\"\" style=invis];\n"
       month_counter += 1
     # New node
     elsif line.start_with?('-')
