@@ -65,6 +65,7 @@ digraph conferences {
     label="October";
     order_node_9 [label="" style=invis];
     node_15 [label="EUMAS\nNotification"];
+    node_30 [label="ICAART\nSubmission"];
   }
 
   subgraph cluster_10 {
@@ -76,6 +77,7 @@ digraph conferences {
     node_19 [label="AAMAS\nAbstracts\nSubmission"];
     node_20 [label="KR\nAbstracts\nSubmission"];
     node_21 [label="FLAIRS\nSubmission"];
+    node_31 [label="ICAART\nNotification"];
   }
 
   subgraph cluster_11 {
@@ -111,6 +113,7 @@ digraph conferences {
   node_19 -> node_24;
   node_20 -> node_26;
   node_21 -> node_25;
+  node_30 -> node_31;
 
   order_node_0 -> order_node_1 [style=invis];
   order_node_1 -> order_node_2 [style=invis];
