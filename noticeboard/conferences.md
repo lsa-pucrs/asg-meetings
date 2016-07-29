@@ -35,6 +35,7 @@
 
 ## October
 - EUMAS Notification
+- ICAART Submission
 
 ## November
 - AAAI Notification
@@ -43,6 +44,7 @@
 - AAMAS Abstracts Submission
 - KR Abstracts Submission
 - FLAIRS Submission
+- ICAART
 
 ## December
 

@@ -65,17 +65,19 @@ digraph conferences {
     label="October";
     order_node_9 [label="" style=invis];
     node_15 [label="EUMAS\nNotification"];
+    node_16 [label="ICAART\nSubmission"];
   }
 
   subgraph cluster_10 {
     label="November";
     order_node_10 [label="" style=invis];
-    node_16 [label="AAAI\nNotification"];
-    node_17 [label="SAC\nNotification"];
-    node_18 [label="ICAPS\nAbstracts\nSubmission"];
-    node_19 [label="AAMAS\nAbstracts\nSubmission"];
-    node_20 [label="KR\nAbstracts\nSubmission"];
-    node_21 [label="FLAIRS\nSubmission"];
+    node_17 [label="AAAI\nNotification"];
+    node_18 [label="SAC\nNotification"];
+    node_19 [label="ICAPS\nAbstracts\nSubmission"];
+    node_20 [label="AAMAS\nAbstracts\nSubmission"];
+    node_21 [label="KR\nAbstracts\nSubmission"];
+    node_22 [label="FLAIRS\nSubmission"];
+    node_23 [label="ICAART"];
   }
 
   subgraph cluster_11 {
@@ -86,16 +88,16 @@ digraph conferences {
   subgraph cluster_12 {
     label="January";
     order_node_12 [label="" style=invis];
-    node_22 [label="ICRA\nNotification"];
-    node_23 [label="ICAPS\nNotification"];
-    node_24 [label="AAMAS\nNotification"];
-    node_25 [label="FLAIRS\nNotification"];
+    node_24 [label="ICRA\nNotification"];
+    node_25 [label="ICAPS\nNotification"];
+    node_26 [label="AAMAS\nNotification"];
+    node_27 [label="FLAIRS\nNotification"];
   }
 
   subgraph cluster_13 {
     label="February";
     order_node_13 [label="" style=invis];
-    node_26 [label="KR\nNotification"];
+    node_28 [label="KR\nNotification"];
   }
 
   node_0 -> node_1 -> node_3;
@@ -103,14 +105,15 @@ digraph conferences {
   node_4 -> node_6;
   node_5 -> node_7;
   node_9 -> node_10;
-  node_11 -> node_22;
-  node_12 -> node_17;
-  node_13 -> node_16;
+  node_11 -> node_24;
+  node_12 -> node_18;
+  node_13 -> node_17;
   node_14 -> node_15;
-  node_18 -> node_23;
-  node_19 -> node_24;
+  node_16 -> node_23;
+  node_19 -> node_25;
   node_20 -> node_26;
-  node_21 -> node_25;
+  node_21 -> node_28;
+  node_22 -> node_27;
 
   order_node_0 -> order_node_1 [style=invis];
   order_node_1 -> order_node_2 [style=invis];
