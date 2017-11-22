@@ -1,4 +1,45 @@
-# Timeline
+# Journals
+
+Below, I summarize the journals that our work will most likely be a good fit, ranked by the selectiveness and focus.
+
+[JAIR]: http://jair.org "Journal of Artificial Intelligence Research"
+[AIJ]: https://www.journals.elsevier.com/artificial-intelligence/ "Artificial Intelligence"
+[IS]: https://www.computer.org/intelligent-systems/ "IEEE Intelligent Systems"
+[JAAMAS]: http://www.springer.com/computer/ai/journal/10458  "Journal of Autonomous Agents and Multi-Agent Systems"
+[KER]: https://www.cambridge.org/core/journals/knowledge-engineering-review "The Knowledge Engineering Review"
+[EAAI]: https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence/ "Engineering Applications of Artificial Intelligence"
+[TIST]: http://tist.acm.org "ACM Transactions in Intelligent Systems and Technology"
+[TAAS]: http://taas.acm.org "ACM Transactions on Autonomous and Adaptive Systems"
+[AILAW]: https://link.springer.com/journal/10506 "Artificial Intelligence and Law"
+[AIIM]: https://www.journals.elsevier.com/artificial-intelligence-in-medicine/ "Artificial Intelligence in Medicine"
+[YNIMG]: https://www.journals.elsevier.com/neuroimage/ "Neuroimage"
+[YNICL]: https://www.journals.elsevier.com/neuroimage-clinical/ "Neuroimage: Clinical"
+
+## Top Tier Journals
+Very selective journals, most of which have very short turnaround times.
+
+- [JAIR] - Journal of Artificial Intelligence Research: 30-60 days turnaround
+- [AIJ] - Artificial Intelligence: 30-60 days turnaround
+- [IS] - IEEE Intelligent Systems
+
+## Second Tier Journals
+Selective journals with a focus on specific types of papers
+
+- [JAAMAS] - Autonomous Agents and Multi-Agent Systems: slow turnaround, focused on agent-related work (the journal counterpart of AAMAS)
+- [KER] - The Knowledge Engineering Review: 90 days turnaround, good for surveys and consolidated work
+- [TIST] - ACM Transactions in Intelligent Systems and Technology: 90 days turnaround
+- [TAAS] - ACM Transactions on Autonomous and Adaptive Systems: 90 days turnaround
+
+## Application Journals
+Good journals that accept papers on applications of AI techniques. Empirical results are more of a requirement than theoretical analysis.
+
+- [EAAI] - Engineering Applications of Artificial Intelligence: 90 days turnaround, good for AI applications in broad domains
+- [AILAW] - Artificial Intelligence and Law
+- [AIIM] - Artificial Intelligence in Medicine
+- [YNIMG]- Neuroimage
+- [YNICL]- Neuroimage: Clinical
+
+# Conference Timeline
 **Convert Markdown timeline to Graphviz DOT**
 
 ![Example timeline](README.md.dot.png)
