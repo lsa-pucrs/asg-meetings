@@ -1,3 +1,11 @@
+# Rankings
+
+All conferences and journals listed here were classified using either one of these two rankings:
+- [Qualis da CAPES](https://sucupira.capes.gov.br)
+- [Excellence in Research in Australia (ERA)](http://www.arc.gov.au/excellence-research-australia)
+
+These rakings are summarized in the [Conference Rankings](http://www.conferenceranks.com) and [Qualis@UFMT](http://qualis.ic.ufmt.br) websites
+
 # Journals
 
 Below, I summarize the journals that our work will most likely be a good fit, ranked by the selectiveness and focus.
