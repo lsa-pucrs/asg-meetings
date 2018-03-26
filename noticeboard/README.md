@@ -104,6 +104,7 @@ ruby timeline.rb README.md LR                   # Generate Left to Right DOT fil
 - [UAI] Notification
 - [IROS] Notification
 - [ICLP] Notification
+- [AIIDE] Submission
 
 ## July
 - [SBGames] Abstracts Submission
