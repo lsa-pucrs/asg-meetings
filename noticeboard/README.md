@@ -22,6 +22,7 @@ Below, I summarize the journals that our work will most likely be a good fit, ra
 [AIIM]: https://www.journals.elsevier.com/artificial-intelligence-in-medicine/ "Artificial Intelligence in Medicine"
 [YNIMG]: https://www.journals.elsevier.com/neuroimage/ "Neuroimage"
 [YNICL]: https://www.journals.elsevier.com/neuroimage-clinical/ "Neuroimage: Clinical"
+[JBHI]: https://jbhi.embs.org
 
 ## Top Tier Journals
 Very selective journals, most of which have very short turnaround times.
@@ -46,6 +47,7 @@ Good journals that accept papers on applications of AI techniques. Empirical res
 - [AIIM] - Artificial Intelligence in Medicine
 - [YNIMG]- Neuroimage
 - [YNICL]- Neuroimage: Clinical
+- [JBHI] - IEEE Journal of Biomedical and Health Informatics
 
 # Conference Timeline
 **Convert Markdown timeline to Graphviz DOT**
