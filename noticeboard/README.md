@@ -24,14 +24,14 @@ Below, I summarize the journals that our work will most likely be a good fit, ra
 [YNICL]: https://www.journals.elsevier.com/neuroimage-clinical/ "Neuroimage: Clinical"
 [JBHI]: https://jbhi.embs.org
 
-## Top Tier Journals
+### Top Tier Journals
 Very selective journals, most of which have very short turnaround times.
 
 - [JAIR] - Journal of Artificial Intelligence Research: 30-60 days turnaround
 - [AIJ] - Artificial Intelligence: 30-60 days turnaround
 - [IS] - IEEE Intelligent Systems
 
-## Second Tier Journals
+### Second Tier Journals
 Selective journals with a focus on specific types of papers
 
 - [JAAMAS] - Autonomous Agents and Multi-Agent Systems: slow turnaround, focused on agent-related work (the journal counterpart of AAMAS)
@@ -39,7 +39,7 @@ Selective journals with a focus on specific types of papers
 - [TIST] - ACM Transactions in Intelligent Systems and Technology: 90 days turnaround
 - [TAAS] - ACM Transactions on Autonomous and Adaptive Systems: 90 days turnaround
 
-## Application Journals
+### Application Journals
 Good journals that accept papers on applications of AI techniques. Empirical results are more of a requirement than theoretical analysis.
 
 - [EAAI] - Engineering Applications of Artificial Intelligence: 90 days turnaround, good for AI applications in broad domains
@@ -62,7 +62,7 @@ In order to take full advantage of links and tooltips we recommend SVG output (c
 
 ```Shell
 ruby timeline.rb README.md LR                   # Generate Left to Right DOT file
-..\graphviz\bin\dot.exe README.md.dot -O -T svg # Generate SVG file
+dot README.md.dot -O -T svg # Generate SVG file
 ```
 
 [IJCAI]: http://www.ijcai.org/ "International Joint Conference on Artificial Intelligence"
@@ -81,12 +81,16 @@ ruby timeline.rb README.md LR                   # Generate Left to Right DOT fil
 [FLAIRS]: http://www.flairs.com/ "Florida Artificial Intelligence Research Society"
 [KR]: http://www.kr.org/ "International Conference on Principles of Knowledge Representation and Reasoning"
 [ICLP]: http://software.imdea.org/Conferences/ICLP2016/ "International Conference on Logic Programming"
+[NeurIPS]: https://neurips.cc "Conference on Neural Information Processing Systems"
+[ICML]: https://icml.cc "Conference on Neural Information Processing Systems"
 
 ## January
 - [IJCAI] Abstracts
+- [ICML] Abstracts
 
 ## February
 - [IJCAI] Submission
+- [ICML] Submission
 
 ## March
 - [UAI] Submission
@@ -99,6 +103,9 @@ ruby timeline.rb README.md LR                   # Generate Left to Right DOT fil
 - [ICLP] Abstracts Submission
 
 ## May
+
+- [NeurIPS] Abstracts Submission
+- [ICML] Notification
 
 ## June
 - [ECAI] Notification
@@ -118,6 +125,7 @@ ruby timeline.rb README.md LR                   # Generate Left to Right DOT fil
 - [SAC] Abstracts Submission
 - [AAAI] Abstracts Submission
 - [EUMAS] Submission
+- [NeurIPS] Notification
 
 ## October
 - [EUMAS] Notification

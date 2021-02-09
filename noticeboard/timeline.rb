@@ -18,15 +18,21 @@ else
   node_counter = month_counter = 0
   output = "digraph conferences {\n  rankdir=#{dir}\n\n"
   # Generate graph based on filename lines starting with "## month" and "- conferenceName description"
+  
+  timeline = false
   IO.foreach(filename) {|line|
+    # Skip stuff until the conference timeline
+    if line.start_with?('# Conference Timeline')
+      timeline = true
+    end
     # Month
-    if line.start_with?('##')
+    if timeline and line.start_with?('##')
       # Close and save previous cluster
       output << cluster << "  }\n\n" if cluster
       cluster = "  subgraph cluster_#{month_counter} {\n    graph[height=1.65]\n    label=\"#{line.split[1]}\"\n    order_node_#{month_counter} [shape=point label=\"\" style=invis]\n"
       month_counter += 1
     # Node
-    elsif line.start_with?('-')
+    elsif timeline and line.start_with?('-')
       line.delete!('[]')
       item = line.split
       item.shift
@@ -34,7 +40,7 @@ else
       cluster << "    node_#{node_counter} [shape=box label=\"#{item.join('\n')}\" URL=\"#{url[item.first].first}\" tooltip=\"#{url[item.first].last}\" target=\"_blank\"]\n"
       node_counter += 1
     # URL
-    elsif line.start_with?('[')
+    elsif timeline and line.start_with?('[')
       line =~ /^\[(.+)\]: ([^\s]+) "(.*)"/
       url[$1] = [$2, $3]
     end
