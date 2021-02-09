@@ -83,6 +83,9 @@ dot README.md.dot -O -T svg # Generate SVG file
 [ICLP]: http://software.imdea.org/Conferences/ICLP2016/ "International Conference on Logic Programming"
 [NeurIPS]: https://neurips.cc "Conference on Neural Information Processing Systems"
 [ICML]: https://icml.cc "Conference on Neural Information Processing Systems"
+[ICCV]: https://www.thecvf.com "International Conference on Computer Vision"
+[CVPR]: https://www.thecvf.com "Conference on Computer Vision and Pattern Recognition"
+[BMVC]: https://bmvc2020-conference.com "British Machine Vision Conference"
 
 ## January
 - [IJCAI] Abstracts
@@ -95,12 +98,14 @@ dot README.md.dot -O -T svg # Generate SVG file
 ## March
 - [UAI] Submission
 - [IROS] Submission
+- [ICCV] Abstracts Submission
 
 ## April
 - [IJCAI] Notification
 - [ECAI] Submission
 - [IAT] Submission
 - [ICLP] Abstracts Submission
+- [BMVC] Abstracts Submission
 
 ## May
 
@@ -116,6 +121,8 @@ dot README.md.dot -O -T svg # Generate SVG file
 
 ## July
 - [SBGames] Abstracts Submission
+- [ICCV] Notification
+- [BMVC] Notification
 
 ## August
 - [SBGames] Notification
@@ -139,6 +146,7 @@ dot README.md.dot -O -T svg # Generate SVG file
 - [KR] Abstracts Submission
 - [FLAIRS] Submission
 - [ICAART] Notification
+- [CVPR] Abstracts Submission
 
 ## December
 
@@ -150,3 +158,4 @@ dot README.md.dot -O -T svg # Generate SVG file
 
 ## February
 - [KR] Notification
+- [CVPR] Notification
