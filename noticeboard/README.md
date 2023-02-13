@@ -118,6 +118,7 @@ dot README.md.dot -O -T svg # Generate SVG file
 - [UAI] Notification
 - [IROS] Notification
 - [ICLP] Notification
+- [AIIDE] Submission
 
 ## July
 - [SBGames] Abstracts Submission
